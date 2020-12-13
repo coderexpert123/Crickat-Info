@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".matcdeatils">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#2196F3"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+
+            android:stretchColumns="2">
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Team 1"
+                    android:textColor="#fff"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/team1tv"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Team 2"
+                    android:textColor="#fff"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/team2tv"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Matchstatus"
+                    android:textColor="#fff"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/matchstatustv"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Score"
+                    android:textColor="#fff"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/scoretv"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Date"
+                    android:textColor="#fff"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/datetv"
+
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </TableRow>
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

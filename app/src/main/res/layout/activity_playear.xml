@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".PlayearActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+
+        android:stretchColumns="2"
+        android:layout_height="wrap_content">
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/team1tv"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="0"
+                android:layout_weight="1"
+                android:text="Team 1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/team2tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_span="0"
+                android:layout_weight="1"
+                android:text="Team 2"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/team1playertv"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="0"
+                android:layout_weight="1"
+
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/team2playertv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_span="0"
+                android:layout_weight="1"
+
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</LinearLayout>
